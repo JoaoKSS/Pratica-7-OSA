@@ -1,0 +1,9 @@
+--Conceito Geral--
+A implementação da Árvore B, incluindo as operações de inserção, remoção e busca, além das funcionalidades para salvar a estrutura em um arquivo binário salvando todas modificações, como as de remoção caso tenha e convertê-lo para um arquivo de texto para visualização.
+
+--Configuração e Execução--
+* Todas as configurações – como a ordem da árvore (definindo o grau mínimo e máximo) e os vetores de chaves para inserção, remoção e busca – devem ser ajustadas diretamente na função main. Caso nenhuma alteração seja realizada, basta executar o comando: "make run" no terminal Linux para compilar e rodar o programa.
+
+--Visualização e Testes--
+* Para auxiliar na validação do funcionamento da árvore, foi utilizado o site: https://www.cs.usfca.edu/~galles/visualization/BTree.html como referência para os testes.
+* A visualização da árvore é feita por meio de indentação: o nó mais à esquerda representa a raiz, enquanto os nós pais das folhas são apresentados à direita, permitindo uma compreensão clara da hierarquia e da estrutura da árvore.
